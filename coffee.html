@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Coffee Shop Management System</title>
+    <link rel="stylesheet" href="coffee.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Coffee Shop Management System</h1>
+
+        <label>Customer Name</label>
+        <input type="text" id="customerName">
+
+        <h3>Menu</h3>
+
+        <label>Cappuccino (₹120)</label>
+        <input type="number" id="cappuccino" value="0">
+
+        <label>Latte (₹150)</label>
+        <input type="number" id="latte" value="0">
+
+        <label>Espresso (₹100)</label>
+        <input type="number" id="espresso" value="0">
+
+        <label>Cold Coffee (₹180)</label>
+        <input type="number" id="coldcoffee" value="0">
+
+        <button onclick="generateBill()">
+            Generate Bill
+        </button>
+
+        <button onclick="clearOrder()">
+            Clear
+        </button>
+
+        <div id="bill"></div>
+
+    </div>
+
+    <script src="coffee.js"></script>
+
+</body>
+</html>
