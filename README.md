@@ -8,7 +8,7 @@ A simple billing system developed using HTML,CSS and Java Script.
 - GST calculation
 - Clear order functionality
 
-## Technologies Used
+## Technologies      Used
 - HTML
 - CSS
 - JavaScript
